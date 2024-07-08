@@ -1,0 +1,546 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bottomspace{
+	margin-bottom: 29px;
+}
+
+#pink {
+	position: relative;
+	
+}
+#pink h1::first-letter{
+	font-weight: 700;
+	text-shadow: 0px 0px 5px #e22761,0px 0px 10px rgba(226,39,97,.9),0px 0px 20px rgba(226,39,97,.6);
+}
+#pink h1 {
+	color: rgba(255,255,255,1.00);
+	font-family: "acumin-pro-wide", sans-serif;
+	font-weight: 100;
+	font-size: 7.1em;
+}
+#pink #myname {
+	position: absolute;
+	bottom: 28%;
+	left: 8%;
+
+}
+.blubar{position: relative;
+	margin-top: -20px;
+	border: none;
+	height: 10px;
+	width: 100%;}
+.blubarR {
+	
+	background-image: -webkit-linear-gradient(0deg,rgba(108,111,239,1.00) 80%,rgba(255,255,255,1.00) 100%);
+	background-image: -moz-linear-gradient(0deg,rgba(108,111,239,1.00) 80%,rgba(255,255,255,1.00) 100%);
+	background-image: -o-linear-gradient(0deg,rgba(108,111,239,1.00) 80%,rgba(255,255,255,1.00) 100%);
+	background-image: linear-gradient(90deg,rgba(108,111,239,1.00) 80%,rgba(255,255,255,1.00) 100%);	
+
+}
+.blubarL {
+	
+	background-image: -webkit-linear-gradient(180deg,rgba(108,111,239,1.00) 80%,rgba(255,255,255,1.00) 100%);
+	background-image: -moz-linear-gradient(180deg,rgba(108,111,239,1.00) 80%,rgba(255,255,255,1.00) 100%);
+	background-image: -o-linear-gradient(180deg,rgba(108,111,239,1.00) 80%,rgba(255,255,255,1.00) 100%);
+	background-image: linear-gradient(270deg,rgba(108,111,239,1.00) 80%,rgba(255,255,255,1.00) 100%);	
+
+}
+.col-xs-6.no-pad {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+
+
+}
+.blubarrow {
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-right: 0px;
+}
+.Lucaspic{
+	padding-right: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 40px;
+	margin-top: 173px;
+	height: auto;
+	width: 70%;
+	float: right;
+	box-shadow:3px 3px 15px -1px #000000;
+}
+.Lucaspic2{
+	padding-right: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 10px;
+	margin-top: 173px;
+	height: auto;
+	width: 100%;
+	float: right;
+	box-shadow:3px 3px 15px -1px #000000;
+}
+.pinkline {
+	background-color: #e22761;
+	height: 3px;
+	position: absolute;
+	width:100%;
+	margin-top: -10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	border:none;
+}
+.pinkline {
+	margin-top: -10px;
+}
+
+.formStyle {
+	width: 100%;
+}
+
+.purple{color:#2A1C32;}
+
+
+
+html, body{margin:0;padding:0px;}
+
+
+.offwhite{color:#fbf6fe;}
+footer {
+	background-color: #131011;
+	color: #fbf6fe;
+	font-family: "Myriad Pro", sans-serif;
+	font-weight: 100;
+	font-size: 28px;
+	color: #949494;
+	font-size: large;
+	width: 100%;
+	margin: 0;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	}
+.offwhite p {
+	text-align: right;
+}
+
+footer .row{margin:0px;
+padding:0;}
+.row3 {
+	background-color: #2A1C32;
+	
+	
+	
+}
+
+.desc{
+	color: #fbf6fe;
+	text-align: center;
+	font-size: 16pt;
+	margin-top: -18px;
+	margin-bottom: 27px;
+}
+
+
+.row2 {
+	background-color: #FBF6FE;
+	
+}
+h2, h3, p{font-family:"futura-pt",sans-serif;}
+h2{
+	font-weight: 300;
+	font-size: 64px;
+	line-height: 48px;
+	margin-top: 30px;
+}
+h3{font-weight:300;
+font-size:38px;}
+p{font-weight:300;
+font-size:27px;}
+#carousel1 {
+	margin-top: 178px;
+	margin-bottom: 40px;
+	box-shadow:0 0 0px 2px #fbf6fe, 0 0 0 4px #2a1c32, 0 0 0 7px #fbf6fe, 3px 3px 15px 8px #000000;
+	
+}
+
+.row .col-lg-4.right {
+	text-align: right;
+
+}
+.row .col-lg-4.middle {
+	text-align: center;
+}
+.row .col-lg-4.left {
+
+}
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    overflow: hidden;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+footer a  {
+	text-decoration: none;
+	color: inherit;
+
+}
+.rightalign {
+	text-align: right;
+
+}
+
+footer a:hover {
+	color: #FFFFFF;
+}
+footer .col-lg-4 {
+	padding: 0;
+	margin: 0;
+}
+p {
+	margin-top: 25px;
+}
+.video{
+	z-index: 0;
+	width:800px;
+	height:500px;
+}
+.desc2{
+	color: #2A1C32;
+	text-align: center;
+	font-size: 16pt;
+	margin-top:0px;
+	transform: 0 -10px;
+	height:auto;
+	display:block;
+	padding-top: -20px;
+	margin-top:-20px;
+	/* padding-bottom: 1em; */
+	margin-bottom: 27px;
+}
+.row4 {
+	text-align: center;
+}
+.sizedown {
+	width: 50%;
+	height: auto;
+}
+.sizedown2 {
+	height: auto;
+	width: 30%;
+	text-align: center;
+}
+.cert {
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 20px;
+
+
+}
+.col-lg-6 .cert p {
+	margin-top: 13px;
+}
+
+.img {
+	margin-right: auto;
+	margin-left: auto;
+	-webkit-box-shadow: 3px 3px 27px -6px #353535;
+	box-shadow: 3px 3px 27px -6px #353535;
+}
+.sizedown3 {
+	height: auto;
+	width: 30%;
+}
+.pink p {
+	letter-spacing: 6px;
+	color: #FFFFFF;
+	margin-top: -83px;
+	position: absolute;
+	text-align: center;
+	margin-left: 41px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*For buttons:
+tag { text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa} progressively darker and lower shadow
+
+cool shadow
+text-shadow: 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15)*/
+
+@media (max-width:767px){
+	p{font-size:15pt;}
+	.pink p {
+	letter-spacing: 2px;
+	color: #FFFFFF;
+	margin-top: -55px;
+	position: absolute;
+	text-align: center;
+	margin-left: -10px;
+		font-size:14px;
+		line-height: 20px;
+
+}
+	#carousel1 {
+	margin-top: -30px;
+	margin-bottom: 40px;
+	box-shadow:0 0 0px 2px #fbf6fe, 0 0 0 4px #2a1c32, 0 0 0 7px #fbf6fe, 3px 3px 15px 8px #000000;
+	
+}
+
+	.row .col-lg-4.right {
+	text-align: center;
+
+}
+	.right, .middle, .left{text-align:center;}
+#myname h1 {
+	font-size: 3.5em;
+	padding-top: 0px;
+	margin-top: -17px;
+	margin-left: -23px;
+}
+#pink #blubar {
+	border-width: 7px;
+	margin-top: -13px;
+}
+.blubar {height:5px;
+	margin-top:-10px;
+}
+
+	.Lucaspic{
+	padding-right: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 00px;
+	margin-top: 0px;
+	height: auto;
+	width: 100%;
+	float: none;
+	box-shadow:3px 3px 15px -1px #000000;
+}
+
+
+.pinkline {
+	margin-top: -15px;
+}
+}
+
+@media (min-width:768px) and (max-width:960px){
+	p{font-size:17pt;}
+	.pink p {
+	letter-spacing: 3px;
+	color: #FFFFFF;
+	margin-top: -65px;
+	position: absolute;
+	margin-left: 10px;
+		font-size:18px;
+
+}
+#myname h1 {
+	font-size: 4.5em;
+	margin-top: -15px;
+}
+.blubar {height:7px;
+	margin-top:-14px;
+}
+.panel-heading .panel-title {
+	
+	font-size: 60px;
+	margin-right: 28%;
+	margin-left: 28%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	
+	}
+#form1 {
+	margin-left: 25%;
+	margin-right: 25%;
+	
+	
+}.pinkline {
+	margin-top: -15px;
+}}
+
+
+
+@media (min-width:961px) and (max-width:1199px){
+	p{font-size:19pt;}
+	.pink p {
+	letter-spacing: 5px;
+	color: #FFFFFF;
+	margin-top: -70px;
+	position: absolute;
+	text-align: center;
+	margin-left: 21px;
+		font-size:20px;
+
+}
+#myname h1 {
+	font-size: 5.5em;
+	margin-top: -12px;
+}
+	
+.blubar {height:8px;
+	margin-top:-16px;
+}
+
+	
+	.pinkline {
+	margin-top: -15px;
+}
+.cert p {
+	font-size: 20pt;
+}
+
+
+	}
+
+
+@media (max-width:500px){
+	.pink p {
+	letter-spacing: 3px;
+	color: #FFFFFF;
+	margin-top: -165px;
+	position: absolute;
+	text-align: center;
+	margin-left: 180px;
+		font-size:15px;
+		line-height: 20px;
+		display:none;
+
+}
+	.awards{line-height: 70px;}
+	#carousel1 {
+	margin-top:-50px;
+	margin-bottom: 40px;
+	box-shadow:0 0 0px 2px #fbf6fe, 0 0 0 4px #2a1c32, 0 0 0 7px #fbf6fe, 3px 3px 15px 8px #000000;
+	
+}
+
+	right, middle, left{text-align:center;}
+	#carousel1 {
+	margin-top: 0px;
+	margin-bottom: 20px;
+	box-shadow:0 0 0px 2px #fbf6fe, 0 0 0 4px #2a1c32, 0 0 0 7px #fbf6fe, 3px 3px 15px 8px #000000;
+
+
+
+}
+	.Lucaspic{
+	padding-right: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 00px;
+	margin-top: 0px;
+	height: auto;
+	width: 100%;
+	float: none;
+	box-shadow:3px 3px 15px -1px #000000;
+}
+#myname h1 {
+	font-size: 2em;
+	margin-top: -12px;
+	margin-left: -7px;
+	margin-bottom: 11px;
+	
+}
+	.pinkline {
+	margin-top: -18px;
+}
+	.blubar{height:4px;
+	margin-top:-8px;}
+#myname {
+	top: 28%;
+}
+#pink #blubar {
+	border-width: 6px;
+	margin-top: -11px;
+}
+.panel-heading .panel-title {
+	
+	font-size: 35px;
+	margin-right: 10%;
+	margin-left: 10%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+
+}
+.rightalign {
+}
+.awards {
+	margin-top: 40px;
+}
+
+@media (min-width:501px) and (max-width:539px){
+	.pink p {
+	letter-spacing: 3px;
+	color: #FFFFFF;
+	margin-top: -75px;
+	position: absolute;
+	text-align: center;
+	margin-left: 180px;
+		font-size:15px;
+		line-height: 20px;
+
+}
+}
+
+@media (min-width:650px) and (max-width:767px){
+	.pink p {
+	letter-spacing: 3px;
+	color: #FFFFFF;
+	margin-top: -55px;
+	position: absolute;
+	text-align: center;
+	margin-left: 0px;
+		font-size:17px;
+		line-height: 20px;
+
+}
+}
+.bottomspace {
+}
