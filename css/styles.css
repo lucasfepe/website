@@ -157,7 +157,7 @@ h3{font-weight:300;
 font-size:38px;}
 p{font-weight:300;
 font-size:27px;}
-#carousel1 {
+#carousel1, #carousel2 {
 	margin-top: 178px;
 	margin-bottom: 40px;
 	box-shadow:0 0 0px 2px #fbf6fe, 0 0 0 4px #2a1c32, 0 0 0 7px #fbf6fe, 3px 3px 15px 8px #000000;
@@ -325,7 +325,7 @@ text-shadow: 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px
 		line-height: 20px;
 
 }
-	#carousel1 {
+	#carousel1, #carousel2 {
 	margin-top: -30px;
 	margin-bottom: 40px;
 	box-shadow:0 0 0px 2px #fbf6fe, 0 0 0 4px #2a1c32, 0 0 0 7px #fbf6fe, 3px 3px 15px 8px #000000;
@@ -453,7 +453,7 @@ text-shadow: 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px
 
 }
 	.awards{line-height: 70px;}
-	#carousel1 {
+	#carousel1, #carousel2 {
 	margin-top:-50px;
 	margin-bottom: 40px;
 	box-shadow:0 0 0px 2px #fbf6fe, 0 0 0 4px #2a1c32, 0 0 0 7px #fbf6fe, 3px 3px 15px 8px #000000;
@@ -461,7 +461,7 @@ text-shadow: 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px
 }
 
 	right, middle, left{text-align:center;}
-	#carousel1 {
+	#carousel1, #carousel2 {
 	margin-top: 0px;
 	margin-bottom: 20px;
 	box-shadow:0 0 0px 2px #fbf6fe, 0 0 0 4px #2a1c32, 0 0 0 7px #fbf6fe, 3px 3px 15px 8px #000000;
