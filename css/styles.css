@@ -272,7 +272,15 @@ p {
 	margin-left: 41px;
 
 }
-
+.purpleline{
+	border-top: #2A1C32 solid 15px;
+	box-shadow: inset 0 12px 20px -7px rgba(0,0,0,0.7);
+	padding-top:1em;
+}
+.awardsTexture{
+	background-image: url("../images/fabric_1.webp");
+  /* background-repeat: repeat-x; */
+}
 
 
 
@@ -389,15 +397,7 @@ text-shadow: 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px
 .blubar {height:7px;
 	margin-top:-14px;
 }
-.panel-heading .panel-title {
-	
-	font-size: 60px;
-	margin-right: 28%;
-	margin-left: 28%;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	
-	}
+
 #form1 {
 	margin-left: 25%;
 	margin-right: 25%;
@@ -501,14 +501,7 @@ text-shadow: 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px
 	border-width: 6px;
 	margin-top: -11px;
 }
-.panel-heading .panel-title {
-	
-	font-size: 35px;
-	margin-right: 10%;
-	margin-left: 10%;
-	padding-top: 25px;
-	padding-bottom: 25px;
-}
+
 
 
 }
@@ -544,6 +537,26 @@ text-shadow: 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px
 		line-height: 20px;
 
 }
+}
+@media  (max-width:767px){
+	.switch{
+		display: flex;
+		flex-direction:column;
+
+	}
+	.switch1{
+		order:2
+	}
+	.switch2{
+		order:1
+	}
+	.bottomspace{
+		margin-bottom:0;
+	}
+	p .desc2{
+		margin-bottom:27px;
+	}
+	
 }
 @media  (max-width:700px){
 	.pink p {
@@ -636,17 +649,14 @@ text-shadow: 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px
 }
 @media (max-width:767px){
 	#carousel1, #carousel2 {
-	margin-top: 4px;
+	margin-top: 27px;
 
 }
 	.Lucaspic2, .videoWrapper{
 		margin-top:15px;
 		margin-bottom:1em;
 	}
-	.desc2{
-		
-		margin-bottom:0;
-	}
+	
 }
 @media (max-width:500px){
 	#carousel1, #carousel2 {
@@ -654,4 +664,10 @@ text-shadow: 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px
 
 }
 	
+}
+.award{
+	/* padding:0; */
+}
+.awards + .row{
+	margin:0;
 }
