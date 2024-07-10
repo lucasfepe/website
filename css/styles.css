@@ -179,6 +179,9 @@ font-size:27px;}
     padding-bottom: 56.25%; /* 16:9 */
     height: 0;
     overflow: hidden;
+	margin-bottom:2em;
+	margin-top: 170px;
+	box-shadow:3px 3px 15px -1px #000000;
 }
 
 .videoWrapper iframe {
@@ -542,5 +545,113 @@ text-shadow: 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px
 
 }
 }
-.bottomspace {
+@media  (max-width:700px){
+	.pink p {
+	
+		font-size:15px;
+		
+
+}
+}
+@media  (max-width:558px){
+	.pink p {
+		top: 280px;
+		font-size:16px;
+		letter-spacing:3.5px;
+		
+
+}
+}
+@media  (max-width:550px){
+	.pink p {
+		top: 270px;
+		font-size:16px;
+		letter-spacing:3.5px;
+		
+
+}
+}
+@media  (max-width:539px){
+	.pink p {
+		top: 290px;
+		font-size:15px;
+		letter-spacing:3.5px;
+		margin-left:0;
+		
+
+}
+}
+@media  (max-width:526px){
+	.pink p {
+		top: 280px;
+		font-size:15px;
+		letter-spacing:3.5px;
+		margin-left:0;
+		
+
+}
+}
+@media  (max-width:506px){
+	.pink p {
+		top: 275px;
+		font-size:15px;
+		letter-spacing:3.5px;
+		margin-left:0;
+		
+
+}
+}
+
+
+@media (max-width:1325px){
+	#carousel2 {
+	margin-top: 220px;
+
+}
+
+}
+@media (max-width:1200px){
+	#carousel2 {
+	margin-top: 180px;
+
+}
+}
+@media (max-width:1062px){
+	#carousel2 {
+	margin-top: 220px;
+
+}
+}
+@media (max-width:991px){
+	#carousel2 {
+	margin-top: 180px;
+
+}
+}
+@media (max-width:887px){
+	#carousel2 {
+	margin-top: 215px;
+
+}
+}
+@media (max-width:767px){
+	#carousel1, #carousel2 {
+	margin-top: 4px;
+
+}
+	.Lucaspic2, .videoWrapper{
+		margin-top:15px;
+		margin-bottom:1em;
+	}
+	.desc2{
+		
+		margin-bottom:0;
+	}
+}
+@media (max-width:500px){
+	#carousel1, #carousel2 {
+	margin-bottom: 40px;
+
+}
+	
 }
