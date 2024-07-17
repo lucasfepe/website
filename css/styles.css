@@ -163,11 +163,14 @@ h2{
 	line-height: 48px;
 	margin-top: 30px;
 }
+li {
+	text-align: center;
+}
 h3{font-weight:300;
 font-size:38px;}
 p{font-weight:300;
 font-size:27px;}
-#carousel1, #carousel2, #carousel4 {
+#carousel1, #carousel2, #carousel4, #carousel5 {
 	margin-top: 178px;
 	margin-bottom: 40px;
 	box-shadow:0 0 0px 2px #fbf6fe, 0 0 0 4px #2a1c32, 0 0 0 7px #fbf6fe, 3px 3px 15px 8px #000000;
@@ -296,10 +299,19 @@ p {
 	padding-top:1em;
 }
 
+.navbar{
+	margin-bottom: 0px;
+	border-radius: 0px;
+	border:none;
+	background-color: #292929;
+}
+footer{
+	background-color: #292929;
+}
 
-
-
-
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	background-color: #5b5b5b;
+}
 
 
 
@@ -338,6 +350,11 @@ cool shadow
 text-shadow: 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15)*/
 
 @media (max-width:767px){
+	#carousel4, #carousel5 {
+		margin-top: 20px;
+		
+		
+	}
 	p{font-size:15pt;}
 	.pink p {
 	letter-spacing: 2px;
